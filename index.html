@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Ghazal</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="petals-bg" id="petalsBg"></div>
+<div class="hearts">&#x1F338;</div>
+
+<div class="screen active" id="s-intro">
+  <div class="intro-tag">a little something for</div>
+  <div class="intro-name">Yash<span>fa</span></div>
+  <div class="intro-sub">my ghazal, my mohtarma, my lady &#x1F338;</div>
+  <div class="letter-card">
+    <p>Yashu,</p>
+    <p>I made this little thing for you. Not because I had to, but because I wanted you to know that even when I run out of words, I still find a hundred ways to reach you.</p>
+    <p>This is a small quiz about me. Let us see how well you know the person who refuses to stop calling you ghazal.</p>
+    <p>No pressure. No right way to feel. Just play. &#x1F338;</p>
+    <div class="sig">-- yours, always</div>
+  </div>
+  <button class="btn" id="startBtn">Let's play &#x1F338;</button>
+</div>
+
+<div class="screen" id="s-quiz">
+  <div class="progress-wrap">
+    <div class="progress-label">Question <span id="qNum">1</span> of 7</div>
+    <div class="progress-bar"><div class="progress-fill" id="progFill" style="width:0%"></div></div>
+  </div>
+  <div class="q-card">
+    <div class="q-num" id="qLabel">Q1</div>
+    <div class="q-text" id="qText"></div>
+    <div class="options" id="qOptions"></div>
+  </div>
+  <div class="feedback" id="feedback"></div>
+</div>
+
+<div class="screen" id="s-result">
+  <div class="result-emoji" id="resultEmoji">&#x1F338;</div>
+  <div class="result-title" id="resultTitle"></div>
+  <div class="result-score" id="resultScore"></div>
+  <div class="divider">&#x1F338;</div>
+  <div class="result-msg" id="resultMsg"></div>
+  <button class="btn no-anim" id="restartBtn">Play again? &#x1F338;</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
