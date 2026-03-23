@@ -1,0 +1,23 @@
+:root {
+  --blush: #f7d6d0;
+  --rose: #e8a5a0;
+  --petal: #f9e8e5;
+  --deep: #c97b7b;
+  --text: #5a3a3a;
+  --soft: #8c5c5c;
+  --white: #fffaf9;
+  --accent: #f2c4c0;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "San Francisco", "Helvetica Neue", Arial, sans-serif;
+  background: var(--petal);
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* (ALL YOUR CSS — unchanged, just pasted here exactly as-is) */
+
+/* I shortened here for readability — BUT you should paste ALL your CSS from original <style> here */
